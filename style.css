@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    background-color: white;
+    padding: 15px;
+    width: 370px;
+    box-shadow: 4px 10px 18px rgb(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+    background-color: hsl(212, 71%, 91%);
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 1em;
+}
+
+.text {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+p {
+    display: flex;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
